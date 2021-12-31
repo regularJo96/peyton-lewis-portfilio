@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Josiah
+	email = riddlerforever@live.com
+[core]
+	autocrlf = false
+[color]
+	ui = true
+[pull]
+	rebase = false

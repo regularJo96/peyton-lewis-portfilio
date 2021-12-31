@@ -40,8 +40,6 @@ function Home(){
       <div id="sylvia" className="block container-fluid bg-red text-center justify-content-center text-light">
         <Work title="Don't Be Afraid of the Dark" time="2021" role="Sylvia Frye" route="/Don't-Be-Afraid-of-the-Dark"/>
       </div>
-
-      <a className="text-center" name="linktotop">Back To Top</a>
       
     </div>
   )
