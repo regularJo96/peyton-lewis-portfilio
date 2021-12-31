@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/peyton-lewis-portfolio/static/css/main.2e827ca9.css",
-    "main.js": "/peyton-lewis-portfolio/static/js/main.fa5caa36.js",
+    "main.css": "/peyton-lewis-portfolio/static/css/main.97915667.css",
+    "main.js": "/peyton-lewis-portfolio/static/js/main.0bd9a996.js",
     "static/js/787.1fb29056.chunk.js": "/peyton-lewis-portfolio/static/js/787.1fb29056.chunk.js",
     "static/media/sound-of-music-2.jpg": "/peyton-lewis-portfolio/static/media/sound-of-music-2.23b53d5d448be6712616.jpg",
     "static/media/sound-of-music-1.jpg": "/peyton-lewis-portfolio/static/media/sound-of-music-1.cd75a75116e3eda5d553.jpg",
@@ -23,12 +23,12 @@
     "static/media/anatomy-3.jpg": "/peyton-lewis-portfolio/static/media/anatomy-3.214fc135a2fa228fd56d.jpg",
     "static/media/anatomy-1.jpg": "/peyton-lewis-portfolio/static/media/anatomy-1.a5971ecc976539466759.jpg",
     "index.html": "/peyton-lewis-portfolio/index.html",
-    "main.2e827ca9.css.map": "/peyton-lewis-portfolio/static/css/main.2e827ca9.css.map",
-    "main.fa5caa36.js.map": "/peyton-lewis-portfolio/static/js/main.fa5caa36.js.map",
+    "main.97915667.css.map": "/peyton-lewis-portfolio/static/css/main.97915667.css.map",
+    "main.0bd9a996.js.map": "/peyton-lewis-portfolio/static/js/main.0bd9a996.js.map",
     "787.1fb29056.chunk.js.map": "/peyton-lewis-portfolio/static/js/787.1fb29056.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e827ca9.css",
-    "static/js/main.fa5caa36.js"
+    "static/css/main.97915667.css",
+    "static/js/main.0bd9a996.js"
   ]
 }
