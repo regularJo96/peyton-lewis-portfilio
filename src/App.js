@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/custom.scss';
+import './assets/App.scss';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from './pages/home'
+import CharlieBrown from './pages/charlieBrown'
+import NoPage from './pages/noPage'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/You're-a-Good-Man-Charlie-Brown" element={<CharlieBrown/>}/>
+        <Route path="/Some-of-My-Best-Friends-are-Smiths"/>
+        <Route path="/Roald-Dahl's-Willy-Wonka"/>
+        <Route path="/Curious-Savage"/>
+        <Route path="/The-Sound-of-Music"/>
+        <Route path="/Anatomy-of-Gray"/>
+        <Route path="/Don't-Be-Afraid-of-the-Dark"/>
+        <Route path="*" element={<NoPage/>}/>
+      </Routes>
+    </BrowserRouter>
+
+   
+    
   );
 }
 
