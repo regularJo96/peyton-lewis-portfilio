@@ -23,7 +23,7 @@ function Home(){
 
       <div id="charlie" className="position-relative block container-fluid bg-snoopy text-center justify-content-center text-dark border border-dark">
         <a href="#top" className="menu dark">
-          <span class="material-icons position-absolute top-12 start-50 translate-middle-x md-48">
+          <span class="material-icons position-absolute top-5 start-50 translate-middle-x md-48">
             arrow_upward
           </span>
         </a>
@@ -41,7 +41,7 @@ function Home(){
 
       <div id="shirley" className="position-relative block container-fluid bg-shirley text-center justify-content-center text-shirleyC">
         <a href="#charlie" className="menu shirley">
-          <span class="material-icons position-absolute top-12 start-50 translate-middle-x md-48">
+          <span class="material-icons position-absolute top-5 start-50 translate-middle-x md-48">
             arrow_upward
           </span>
         </a>
@@ -59,7 +59,7 @@ function Home(){
 
       <div id="wonka" className="position-relative block container-fluid bg-purple text-center justify-content-center text-wonka">
         <a href="#shirley" className="menu wonka">
-          <span class="material-icons position-absolute top-12 start-50 translate-middle-x md-48">
+          <span class="material-icons position-absolute top-5 start-50 translate-middle-x md-48">
             arrow_upward
           </span>
         </a>
@@ -77,7 +77,7 @@ function Home(){
 
       <div id="ethel" className="position-relative block container-fluid bg-ethel text-center justify-content-center text-ethelC">
         <a href="#wonka" className="menu ethel">
-          <span class="material-icons position-absolute top-12 start-50 translate-middle-x md-48">
+          <span class="material-icons position-absolute top-5 start-50 translate-middle-x md-48">
             arrow_upward
           </span>
         </a>
@@ -95,7 +95,7 @@ function Home(){
      
       <div id="music" className="position-relative block container-fluid bg-green text-center justify-content-center text-light">
         <a href="#ethel" className="menu light">
-          <span class="material-icons position-absolute top-12 start-50 translate-middle-x md-48">
+          <span class="material-icons position-absolute top-5 start-50 translate-middle-x md-48">
             arrow_upward
           </span>
         </a>
@@ -113,7 +113,7 @@ function Home(){
       
       <div id="anatomy" className="position-relative block container-fluid bg-dark text-center justify-content-center text-light">
         <a href="#music" className="menu light">
-          <span class="material-icons position-absolute top-12 start-50 translate-middle-x md-48">
+          <span class="material-icons position-absolute top-5 start-50 translate-middle-x md-48">
             arrow_upward
           </span>
         </a>
@@ -131,7 +131,7 @@ function Home(){
       
       <div id="sylvia" className="position-relative block container-fluid bg-red text-center justify-content-center text-light">
         <a href="#anatomy" className="menu light">
-          <span class="material-icons position-absolute top-12 start-50 translate-middle-x md-48">
+          <span class="material-icons position-absolute top-5 start-50 translate-middle-x md-48">
             arrow_upward
           </span>
         </a>
