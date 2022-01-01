@@ -1,6 +1,6 @@
-function Back(){
+function Back(props){
   const back = (
-    <a className="menu light">
+    <a className={"menu "+props.class}>
       <span class="material-icons md-48 topLeft" data-toggle="tooltip" data-placement="right" title="go back">
         navigate_before
       </span>

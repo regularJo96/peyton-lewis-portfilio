@@ -9,7 +9,7 @@ import Back from '../components/back';
 function Savage(){
   const block = (
     <div className="d-flex flex-column">
-      <Link to="/peyton-lewis-portfolio" className="sticky-top"><Back/></Link>
+      <Link to="/plportfolio" className="sticky-top"><Back/></Link>
       <header className="display-2 text-light text-center">Curious Savage</header>
       <div className="block justify-content-center ">
         <Picture path={pictures[8]} width={window.innerWidth/3}/>

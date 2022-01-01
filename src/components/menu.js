@@ -3,7 +3,7 @@ function Menu(props){
     <>
       <div class="dropdown">
         <a className={props.class} href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-          <span class="material-icons md-48">
+          <span class="material-icons md-48" data-toggle="tooltip" title="menu">
             menu
           </span>
         </a>
