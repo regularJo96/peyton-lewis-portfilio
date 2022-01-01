@@ -5,7 +5,6 @@ import pictures from '../components/images.js';
 import Picture from '../components/picture.js';
 import Back from '../components/back';
 
-
 function CharlieBrown(){
   const block = (
     <div className="d-flex flex-column bg-snoopy">
