@@ -5,7 +5,8 @@ function Welcome(){
   const welcome = (
     <>
       <p className="display-1">HI, I'm Peyton.</p>
-      <p className="display-3">Scroll down or click the arrows to navigate the various productions I have done.</p>
+      <p className="display-3">Scroll down or click the arrows to see my work.</p>
+      <button className="btn btn-primary">Learn More About Me.</button>
     </>
   )
 

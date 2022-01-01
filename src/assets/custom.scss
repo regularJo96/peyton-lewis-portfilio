@@ -1,6 +1,6 @@
 // Override default variables before the import
 // you can open the bootstrap.scss module and check any available variables.
-$primary: #362ec4;
+$primary: #2b80ff;
 $secondary: #8f5325;
 $success: #3e8d63;
 $info: #7854e4;
@@ -9,7 +9,9 @@ $danger: #d62518;
 $light: #f8f9fa;
 $dark: #343a40;
 
+
 //custom color to be mapped
+$black: #000000;
 $snoopy : #ffdf00;
 $shirley : #ffb158;
 $shirleyC: #58A6FF;
@@ -39,7 +41,8 @@ $theme-colors: (
   red: $red,
   shirleyC: $shirleyC,
   ethelC: $ethelC,
-  wonka: $wonka
+  wonka: $wonka,
+  black: $black
 );
 
 $display-font-sizes: (
