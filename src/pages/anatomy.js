@@ -7,29 +7,24 @@ import Back from '../components/back';
 import ScrollToTop from "../scripts/toTop";
 
 
-function Anatomy(){
+function Anatomy(props){
   const block = (
-    <body onLoad={ScrollToTop}>
-      <div className="d-flex flex-column">
-        <Link to="/plportfolio#Anatomy-of-Gray" className="sticky-top"><Back/></Link>
+    <>
+      <div className="d-flex flex-column bg-dark" onLoad={ScrollToTop}>
+        <Link to="/plportfolio" className="sticky-top"><Back class="text-light" coords={props.coords}/></Link>
         <header className="display-2 text-light text-center">Anatomy of Gray</header>
-        <div className="block justify-content-center ">
-          <Picture path={pictures[15]} width={window.innerWidth/3}/>
+        <p className="display-5 text-light text-center mb-5">2020-2021</p>
+        <p className="display-5 text-light text-center mt-5">Director</p>
+
+        <div className="anatomy-gallery">
+          <img className="img-fluid a-pic-1 border border-light border-2" src={pictures[15]}/>
+          <img className="img-fluid a-pic-2 border border-light border-2" src={pictures[16]}/>
+          <img className="img-fluid a-pic-3 border border-light border-2" src={pictures[17]}/>
+          <img className="img-fluid a-pic-4 border border-light border-2" src={pictures[18]}/>
         </div>
 
-        <div className="block justify-content-center ">
-          <Picture path={pictures[16]} width={window.innerWidth/1.5}/>
-        </div>
-
-        <div className="block justify-content-center ">
-          <Picture path={pictures[17]} width={window.innerWidth/3}/>
-        </div>
-
-        <div className="block justify-content-center ">
-          <Picture path={pictures[18]} width={window.innerWidth/1.5}/>
-        </div>
       </div>
-    </body>
+    </>
   )
 
   return block;

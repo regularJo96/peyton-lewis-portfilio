@@ -8,19 +8,18 @@ import ScrollToTop from "../scripts/toTop";
 
 function Music(){
   const block = (
-    <body onLoad={ScrollToTop}>
-      <div className="d-flex flex-column">
-        <Link to="/plportfolio" className="sticky-top"><Back/></Link>
+    <>
+      <div className="d-flex flex-column bg-green" onLoad={ScrollToTop}>
+        <Link to="/plportfolio" className="sticky-top"><Back class="text-light"/></Link>
         <header className="display-2 text-light text-center">The Sound of Music</header>
-        <div className="block justify-content-center ">
-          <Picture path={pictures[13]} width={window.innerWidth/3}/>
-        </div>
-
-        <div className="block justify-content-center ">
-          <Picture path={pictures[14]} width={window.innerWidth/1.5}/>
+        <p className="display-5 text-light text-center mb-5">2019-2020</p>
+        <p className="display-5 text-light text-center mt-5">Student Director</p>
+        <div className="music-gallery">
+          <img className="img-fluid m-pic-1 border border-light border-2 m-auto" src={pictures[13]}/>
+          <img className="img-fluid border m-pic-2 border-light border-2 m-auto" src={pictures[14]}/>
         </div>
       </div>
-    </body>
+    </>
   )
 
   return block;

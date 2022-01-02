@@ -8,31 +8,22 @@ import ScrollToTop from "../scripts/toTop";
 
 function Savage(){
   const block = (
-    <body onLoad={ScrollToTop}>
-      <div className="d-flex flex-column">
-        <Link to="/plportfolio" className="sticky-top"><Back/></Link>
-        <header className="display-2 text-light text-center">Curious Savage</header>
-        <div className="block justify-content-center ">
-          <Picture path={pictures[8]} width={window.innerWidth/3}/>
-        </div>
+    <>
+      <div className="d-flex flex-column bg-ethel" onLoad={ScrollToTop}>
+        <Link to="/plportfolio" className="sticky-top"><Back class="text-ethelC"/></Link>
+        <header className="display-2 text-ethelC text-center">Curious Savage</header>
+        <p className="display-5 text-ethelC text-center mb-5">2019-2020</p>
+        <p className="display-5 text-ethelC text-center mt-5">Ethel P. Savage</p>
 
-        <div className="block justify-content-center ">
-          <Picture path={pictures[9]} width={window.innerWidth/1.5}/>
-        </div>
-
-        <div className="block justify-content-center ">
-          <Picture path={pictures[10]} width={window.innerWidth/1.5}/>
-        </div>
-
-        <div className="block justify-content-center ">
-          <Picture path={pictures[11]} width={window.innerWidth/1.5}/>
-        </div>
-
-        <div className="block justify-content-center ">
-          <Picture path={pictures[12]} width={window.innerWidth/1.5}/>
+        <div className="savage-gallery">
+          <img className="img-fluid s-pic-1 border border-ethelC border-2" src={pictures[10]}/>
+          <img className="img-fluid s-pic-2 border border-ethelC border-2 m-auto" src={pictures[11]}/>
+          <img className="img-fluid s-pic-3 border border-ethelC border-2" src={pictures[9]}/>
+          <img className="img-fluid s-pic-4 border border-ethelC border-2" src={pictures[8]}/>
+          <img className="img-fluid s-pic-5 border border-ethelC border-2" src={pictures[12]}/>
         </div>
       </div>
-    </body>
+    </>
   )
 
   return block;
