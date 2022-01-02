@@ -11,7 +11,12 @@ function Home(){
       <div className="position-relative block container-fluid bg-dark text-center justify-content-center text-light">
         <div class="position-absolute top-0 start-0">
           <Menu class="menu light"/>
-        </div>
+        </div> 
+
+        <div class="position-absolute top-0 end-0">
+          <Link to="/About" className="btn btn-primary">Learn More About Me.</Link>
+        </div> 
+
         <div className="container-fluid">
           <Welcome/>
           <Arrow jumpTo="You're-a-Good-Man-Charlie-Brown" class="menu light" iconName="arrow_downward" position="bottom-12" title="You're a Good Man Charlie Brown"/>
