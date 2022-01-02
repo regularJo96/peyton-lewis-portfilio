@@ -8,7 +8,7 @@ import Back from '../components/back';
 
 function Smiths(){
   const block = (
-    <body>
+    <>
     <div className="d-flex flex-column">
       <Link to="/plportfolio" className="sticky-top"><Back/></Link>
       <header className="display-2 text-light text-center">Some of My Best Friends are Smiths</header>
@@ -24,7 +24,7 @@ function Smiths(){
         <Picture path={pictures[4]} width={window.innerWidth/1.5}/>
       </div>
     </div>
-    </body>
+    </>
   )
 
   return block;

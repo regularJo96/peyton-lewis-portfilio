@@ -7,7 +7,7 @@ import Back from '../components/back';
 
 function CharlieBrown(){
   const block = (
-    <body className="bg-snoopy snoopy-fill">
+    <>
       <div className="d-flex flex-column bg-snoopy peanuts-font ">
         <Link to="/plportfolio" className="sticky-top"><Back class="black"/></Link>
         <header id="#top" className="display-2 text-dark text-center">You're a Good Man Charlie Brown</header>
@@ -16,7 +16,7 @@ function CharlieBrown(){
           <img className="img-fluid" src={pictures[0]}/>
         </div>
       </div>
-    </body>
+    </>
 
   )
 
