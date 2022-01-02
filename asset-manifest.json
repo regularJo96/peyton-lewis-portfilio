@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plportfolio/static/css/main.074b24f8.css",
-    "main.js": "/plportfolio/static/js/main.7cb771e7.js",
+    "main.css": "/plportfolio/static/css/main.87aabac1.css",
+    "main.js": "/plportfolio/static/js/main.4d4947ad.js",
     "static/js/787.1fb29056.chunk.js": "/plportfolio/static/js/787.1fb29056.chunk.js",
     "static/media/sound-of-music-2.jpg": "/plportfolio/static/media/sound-of-music-2.23b53d5d448be6712616.jpg",
     "static/media/sound-of-music-1.jpg": "/plportfolio/static/media/sound-of-music-1.cd75a75116e3eda5d553.jpg",
@@ -24,12 +24,12 @@
     "static/media/anatomy-3.jpg": "/plportfolio/static/media/anatomy-3.214fc135a2fa228fd56d.jpg",
     "static/media/anatomy-1.jpg": "/plportfolio/static/media/anatomy-1.a5971ecc976539466759.jpg",
     "index.html": "/plportfolio/index.html",
-    "main.074b24f8.css.map": "/plportfolio/static/css/main.074b24f8.css.map",
-    "main.7cb771e7.js.map": "/plportfolio/static/js/main.7cb771e7.js.map",
+    "main.87aabac1.css.map": "/plportfolio/static/css/main.87aabac1.css.map",
+    "main.4d4947ad.js.map": "/plportfolio/static/js/main.4d4947ad.js.map",
     "787.1fb29056.chunk.js.map": "/plportfolio/static/js/787.1fb29056.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.074b24f8.css",
-    "static/js/main.7cb771e7.js"
+    "static/css/main.87aabac1.css",
+    "static/js/main.4d4947ad.js"
   ]
 }
