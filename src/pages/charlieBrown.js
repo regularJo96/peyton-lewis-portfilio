@@ -7,16 +7,21 @@ import Back from '../components/back';
 
 function CharlieBrown(){
   const block = (
-    <div className="d-flex flex-column bg-snoopy">
-      <Link to="/plportfolio" className="sticky-top"><Back class="dark"/></Link>
-      <header className="display-2 text-dark text-center">You're a Good Man Charlie Brown</header>
-      <div className="block justify-content-center ">
-        <Picture path={pictures[1]} width={window.innerWidth/3}/>
+    <div className="d-flex flex-column bg-snoopy peanuts-font ">
+      <Link to="/plportfolio" className="sticky-top"><Back class="black"/></Link>
+      <header id="#top" className="display-2 text-dark text-center">You're a Good Man Charlie Brown</header>
+      <div className="charlie-brown-gallery">
+        <img className="img-fluid" src={pictures[1]}/>
+        <img className="img-fluid" src={pictures[0]}/>
+      </div>
+      {/* <div className="block justify-content-center picture-1">
+        <Picture path={pictures[1]} pictureType="picture-1"/>
       </div>
 
-      <div className="block justify-content-center ">
-        <Picture path={pictures[0]} width={window.innerWidth/1.5}/>
-      </div>
+      <div className="block justify-content-center picture-2">
+        <Picture path={pictures[0]} pictureType="picture-2"/>
+      </div> */}
+
     </div>
   )
 

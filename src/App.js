@@ -1,14 +1,15 @@
 import './assets/custom.scss';
 import './assets/App.scss';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Home from './pages/home'
-import CharlieBrown from './pages/charlieBrown'
-import Smiths from './pages/smiths'
-import Wonka from './pages/wonka'
-import Savage from './pages/savage'
-import Music from './pages/music'
-import Anatomy from './pages/anatomy'
-import NoPage from './pages/noPage'
+import Home from './pages/home';
+import CharlieBrown from './pages/charlieBrown';
+import Smiths from './pages/smiths';
+import Wonka from './pages/wonka';
+import Savage from './pages/savage';
+import Music from './pages/music';
+import Anatomy from './pages/anatomy';
+import About from './pages/about';
+import NoPage from './pages/noPage';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/The-Sound-of-Music" element={<Music/>}/>
         <Route path="/Anatomy-of-Gray" element={<Anatomy/>}/>
         <Route path="/Don't-Be-Afraid-of-the-Dark"/>
+        <Route path="/About" element={<About/>}/>
         <Route path="*" element={<NoPage/>}/>
       </Routes>
     </BrowserRouter>

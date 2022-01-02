@@ -1,5 +1,5 @@
 import '../assets/custom.scss';
-import '../assets/App.scss'
+import '../assets/App.scss';
 
 function Work(props){
   const role = props.role;

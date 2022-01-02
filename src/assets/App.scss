@@ -48,6 +48,10 @@ a.menu.white{
   color: white;
 }
 
+a.menu.black{
+  color: black;
+}
+
 a.menu:hover{
   opacity: 0.5;
 }
@@ -67,4 +71,20 @@ a.menu:hover{
 
 .peanuts-font{
   font-family: "Peanuts";
+}
+
+.charlie-brown-gallery{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .charlie-brown-gallery{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
 }
