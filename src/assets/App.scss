@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.snoopy-fill{
+  background-color: #ffdf00;
+}
+
 .block{
   min-height: 100vh;
   display: flex;
@@ -81,7 +85,7 @@ a.menu:hover{
   padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .charlie-brown-gallery{
     display: grid;
     grid-template-columns: 100%;

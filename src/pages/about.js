@@ -3,12 +3,15 @@ import Back from '../components/back';
 
 function About(){
   const about = (
-    <>
-      <Link to="/plportfolio" className="sticky-top"><Back class="light"/></Link>
-      <div className="container">
-        <p className="display-1 text-center text-white">Peyton Lewis</p>
+    <body className="bg-primary">
+      
+      <div className="block d-flex flex-column text-light">
+        <Link to="/plportfolio" className="sticky-top"><Back class="black"/></Link>
+        <div className="container">
+          <p className="display-1 text-center text-black">Peyton Lewis</p>
+        </div>
       </div>
-    </>
+    </body>
   )
 
   return about;
