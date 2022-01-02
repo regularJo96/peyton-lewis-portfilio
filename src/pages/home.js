@@ -18,7 +18,7 @@ function Home(){
         </div>
       </div>
 
-      <div id="You're-a-Good-Man-Charlie-Brown" className="position-relative block container-fluid bg-snoopy text-center justify-content-center text-dark border border-dark peanuts-font">
+      <div id="You're-a-Good-Man-Charlie-Brown" className="position-relative block container-fluid bg-snoopy text-center justify-content-center text-dark peanuts-font">
         <Arrow jumpTo="top" class="menu dark" iconName="arrow_upward" position="top-0" title="Home"/>
         <div class="position-absolute top-0 start-0">
           <Menu class="menu dark"/>
