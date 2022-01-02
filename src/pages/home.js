@@ -1,5 +1,5 @@
 import Welcome from './welcome';
-import Work from './workLink';
+import Work from './work';
 import Menu from '../components/menu';
 import Arrow from '../components/arrow';
 import {Link} from "react-router-dom";
