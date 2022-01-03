@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plportfolio/static/css/main.a66abe7d.css",
-    "main.js": "/plportfolio/static/js/main.e2e8ee81.js",
+    "main.css": "/plportfolio/static/css/main.43ca9e2e.css",
+    "main.js": "/plportfolio/static/js/main.4674df52.js",
     "static/js/787.1fb29056.chunk.js": "/plportfolio/static/js/787.1fb29056.chunk.js",
     "static/media/sound-of-music-2.jpg": "/plportfolio/static/media/sound-of-music-2.23b53d5d448be6712616.jpg",
     "static/media/sound-of-music-1.jpg": "/plportfolio/static/media/sound-of-music-1.cd75a75116e3eda5d553.jpg",
@@ -22,14 +22,16 @@
     "static/media/charlie-brown-2.jpg": "/plportfolio/static/media/charlie-brown-2.7b93b1c91996b2138c17.jpg",
     "static/media/anatomy-2.jpg": "/plportfolio/static/media/anatomy-2.0c7a6423c4d67d5339bb.jpg",
     "static/media/anatomy-3.jpg": "/plportfolio/static/media/anatomy-3.214fc135a2fa228fd56d.jpg",
+    "static/media/African.ttf": "/plportfolio/static/media/African.0ad4dd2cfcac64577fc2.ttf",
     "static/media/anatomy-1.jpg": "/plportfolio/static/media/anatomy-1.a5971ecc976539466759.jpg",
+    "static/media/WillyWonka.ttf": "/plportfolio/static/media/WillyWonka.aba397a47d5c2349d30a.ttf",
     "index.html": "/plportfolio/index.html",
-    "main.a66abe7d.css.map": "/plportfolio/static/css/main.a66abe7d.css.map",
-    "main.e2e8ee81.js.map": "/plportfolio/static/js/main.e2e8ee81.js.map",
+    "main.43ca9e2e.css.map": "/plportfolio/static/css/main.43ca9e2e.css.map",
+    "main.4674df52.js.map": "/plportfolio/static/js/main.4674df52.js.map",
     "787.1fb29056.chunk.js.map": "/plportfolio/static/js/787.1fb29056.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a66abe7d.css",
-    "static/js/main.e2e8ee81.js"
+    "static/css/main.43ca9e2e.css",
+    "static/js/main.4674df52.js"
   ]
 }
