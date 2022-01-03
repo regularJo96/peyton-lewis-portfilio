@@ -9,9 +9,9 @@ import ScrollToTop from "../scripts/toTop";
 function Savage(){
   const block = (
     <>
-      <div className="d-flex flex-column bg-ethel" onLoad={ScrollToTop}>
+      <div className="d-flex flex-column bg-ethel">
         <Link to="/plportfolio" className="sticky-top"><Back class="text-ethelC"/></Link>
-        <header className="display-2 text-ethelC text-center">Curious Savage</header>
+        <header className="display-2 text-ethelC text-center" onLoad={ScrollToTop}>Curious Savage</header>
         <p className="display-5 text-ethelC text-center mb-5">2019-2020</p>
         <p className="display-5 text-ethelC text-center mt-5">Ethel P. Savage</p>
 

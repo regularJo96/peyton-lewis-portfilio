@@ -9,9 +9,9 @@ import ScrollToTop from "../scripts/toTop";
 function Smiths(){
   const block = (
     <>
-      <div className="d-flex flex-column bg-black text-white" onLoad={ScrollToTop}>
+      <div className="d-flex flex-column bg-black text-white">
         <Link to="/plportfolio" className="sticky-top"><Back class="text-white"/></Link>
-        <header className="display-2 text-light text-center">Some of My Best Friends are Smiths</header>
+        <header className="display-2 text-light text-center" onLoad={ScrollToTop}>Some of My Best Friends are Smiths</header>
         <p className="display-5 text-light text-center mb-5">2017-2018</p>
         <p className="display-5 text-light text-center mt-5">Shirley Robinson</p>
 
