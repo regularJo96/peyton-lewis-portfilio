@@ -1,5 +1,5 @@
-function Arrow(props){
-  const arrow = (
+function Icon(props){
+  const icon = (
   <>
     <a href={'#'+props.jumpTo} className={props.class}>
       <span className={"material-icons position-absolute " + props.position + " start-50 translate-middle-x md-48"} data-toggle="tooltip" title={props.title}>
@@ -8,9 +8,7 @@ function Arrow(props){
     </a>
   </>
   )
-  return arrow;
+  return icon;
 }
 
-
-
-export default Arrow;
+export default Icon;

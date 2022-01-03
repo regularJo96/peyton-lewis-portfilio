@@ -16,3 +16,13 @@ code {
   font-family: 'Peanuts';
   src: local('Peanuts'), url(./fonts/peanuts.otf);
 }
+
+@font-face {
+  font-family: 'WillyWonka';
+  src: local('WillyWonka'), url(./fonts/WillyWonka.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'African';
+  src: local('African'), url(./fonts/African.ttf) format('truetype');
+}
