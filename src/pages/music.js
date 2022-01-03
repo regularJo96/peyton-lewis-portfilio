@@ -9,9 +9,9 @@ import ScrollToTop from "../scripts/toTop";
 function Music(){
   const block = (
     <>
-      <div className="d-flex flex-column bg-green" onLoad={ScrollToTop}>
+      <div className="d-flex flex-column bg-green">
         <Link to="/plportfolio" className="sticky-top"><Back class="text-light"/></Link>
-        <header className="display-2 text-light text-center">The Sound of Music</header>
+        <header className="display-2 text-light text-center" onLoad={ScrollToTop}>The Sound of Music</header>
         <p className="display-5 text-light text-center mb-5">2019-2020</p>
         <p className="display-5 text-light text-center mt-5">Student Director</p>
         <div className="music-gallery">

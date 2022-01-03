@@ -10,9 +10,9 @@ import ScrollToTop from "../scripts/toTop";
 function Wonka(){
   const block = (
     <>
-      <div className="d-flex flex-column justify bg-purple" onLoad={ScrollToTop}>
+      <div className="d-flex flex-column justify bg-purple">
         <Link to="/plportfolio" className="sticky-top"><Back class="text-wonka"/></Link>
-        <header className="display-2 text-light text-center text-wonka">Roald Dahl's Willy Wonka</header>
+        <header className="display-2 text-light text-center text-wonka" onLoad={ScrollToTop}>Roald Dahl's Willy Wonka</header>
         <p className="display-5 text-wonka text-center mb-5">2018-2019</p>
         <p className="display-5 text-wonka text-center mt-5">Grandma Josephine</p>
         

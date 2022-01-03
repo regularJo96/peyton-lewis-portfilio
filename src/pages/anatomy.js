@@ -10,9 +10,9 @@ import ScrollToTop from "../scripts/toTop";
 function Anatomy(props){
   const block = (
     <>
-      <div className="d-flex flex-column bg-dark" onLoad={ScrollToTop}>
+      <div className="d-flex flex-column bg-dark">
         <Link to="/plportfolio" className="sticky-top"><Back class="text-light" coords={props.coords}/></Link>
-        <header className="display-2 text-light text-center">Anatomy of Gray</header>
+        <header className="display-2 text-light text-center" onLoad={ScrollToTop}>Anatomy of Gray</header>
         <p className="display-5 text-light text-center mb-5">2020-2021</p>
         <p className="display-5 text-light text-center mt-5">Director</p>
 

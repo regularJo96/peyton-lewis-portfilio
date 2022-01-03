@@ -9,9 +9,9 @@ import ScrollToTop from "../scripts/toTop";
 function CharlieBrown(props){
   const block = (
     <>
-      <div className="d-flex flex-column bg-snoopy peanuts-font" onLoad={ScrollToTop}>
+      <div className="d-flex flex-column bg-snoopy peanuts-font">
         <Link to="/plportfolio" className="sticky-top"><Back class="text-black"/></Link>
-        <header id="#top" className="display-2 text-dark text-center">You're a Good Man Charlie Brown</header>
+        <header id="#top" className="display-2 text-dark text-center" onLoad={ScrollToTop}>You're a Good Man Charlie Brown</header>
         <p className="display-5 text-dark text-center mb-5">2017-2018</p>
         <p className="display-5 text-dark text-center mt-5">Snoopy</p>
         <p className="display-5 text-dark text-center mt-5">{props.state}</p>
