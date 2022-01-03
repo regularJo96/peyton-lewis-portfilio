@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 function Home(){
   const home = (
-    <div id="top" className="d-flex flex-column">
+    <div id="home" className="d-flex flex-column">
       
       <div className="position-relative block container-fluid bg-dark text-center justify-content-center text-light">
         <div className="position-absolute top-0 start-0">
