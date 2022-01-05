@@ -14,14 +14,15 @@ function Menu(props){
 
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
           
-          <li><a href="#home" className="dropdown-item">Home</a></li>
-          <li><a href="#You're-a-Good-Man-Charlie-Brown" className="dropdown-item">You're a Good Man Charlie Brown</a></li>
-          <li><a href="#Some-of-My-Best-Friends-are-Smiths" className="dropdown-item">Some of My Best Friends are Smiths</a></li>
-          <li><a href="#Roald-Dahl's-Willy-Wonka" className="dropdown-item">Roald Dahl's Willy Wonka</a></li>
-          <li><a href="#Curious-Savage" className="dropdown-item">Curious Savage</a></li>
-          <li><a href="#The-Sound-of-Music" className="dropdown-item">The Sound of Music</a></li>
-          <li><a href="#Anatomy-of-Gray" className="dropdown-item">Anatomy of Gray</a></li>
-          <li><a href="#Don't-Be-Afraid-of-the-Dark" className="dropdown-item">Don't Be Afraid of the Dark</a></li>
+          <li><Link to="/plportfolio" className="dropdown-item">Home</Link></li>
+          <li><Link to="/plportfolio/version2" className="dropdown-item">version 2</Link></li>
+          <li><Link to="/You're-a-Good-Man-Charlie-Brown" className="dropdown-item">You're a Good Man Charlie Brown</Link></li>
+          <li><Link to="/Some-of-My-Best-Friends-are-Smiths" className="dropdown-item">Some of My Best Friends are Smiths</Link></li>
+          <li><Link to="/Roald-Dahl's-Willy-Wonka" className="dropdown-item">Roald Dahl's Willy Wonka</Link></li>
+          <li><Link to="/Curious-Savage" className="dropdown-item">Curious Savage</Link></li>
+          <li><Link to="/The-Sound-of-Music" className="dropdown-item">The Sound of Music</Link></li>
+          <li><Link to="/Anatomy-of-Gray" className="dropdown-item">Anatomy of Gray</Link></li>
+          <li><Link to="/Don't-Be-Afraid-of-the-Dark" className="dropdown-item">Don't Be Afraid of the Dark</Link></li>
           <li><Link to="/About" className="dropdown-item">About Me</Link></li>
         </ul>
       </div>
