@@ -19,7 +19,7 @@ function Home(){
         </div>
       </div>
 
-      <div id="You're-a-Good-Man-Charlie-Brown" className="position-relative block container-fluid bg-snoopy text-center justify-content-center text-dark peanuts-font">
+      <div id="You're-a-Good-Man-Charlie-Brown" className="position-relative block container-fluid bg-snoopy text-center justify-content-center text-dark">
         <Icon jumpTo="top" class="text-dark" iconName="arrow_upward" position="top-0" title="Home"/>
         <div className="position-absolute top-0 start-0">
           <Menu class="text-dark"/>
@@ -30,7 +30,7 @@ function Home(){
 
       </div>
 
-      <div id="Some-of-My-Best-Friends-are-Smiths" className="position-relative block container-fluid bg-black text-center justify-content-center text-white african-font">
+      <div id="Some-of-My-Best-Friends-are-Smiths" className="position-relative block container-fluid bg-black text-center justify-content-center text-white">
         <Icon jumpTo="You're-a-Good-Man-Charlie-Brown" class="text-light" iconName="arrow_upward" position="top-0" title="You're a Good Man Charlie Brown"/>
         <div className="position-absolute top-0 start-0">
           <Menu class="text-light" color="bg-light"/>
@@ -40,7 +40,7 @@ function Home(){
         <Icon jumpTo="Roald-Dahl's-Willy-Wonka" class="text-light" iconName="arrow_downward" position="bottom-12" title="Roald Dahl's Willy Wonka"/>
       </div>
 
-      <div id="Roald-Dahl's-Willy-Wonka" className="position-relative block container-fluid bg-purple text-center justify-content-center text-wonka willywonka-font">
+      <div id="Roald-Dahl's-Willy-Wonka" className="position-relative block container-fluid bg-purple text-center justify-content-center text-wonka">
         <Icon jumpTo="Some-of-My-Best-Friends-are-Smiths" class="text-wonka" iconName="arrow_upward" position="top-0" title="Some of My Best Friends are Smiths"/>
         <div className="position-absolute top-0 start-0">
           <Menu class="text-wonka"/>
