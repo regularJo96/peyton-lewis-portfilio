@@ -10,7 +10,7 @@ function Home(){
     <div id="home" className="d-flex flex-column">
       
       <div className="sticky-top bg-dark">
-        <h1 className="text-white">Work in progress</h1> 
+        <h1 className="text-white">Work in progress. Scroll down a bit first to use the dropdown to switch to a different version</h1> 
         <Menu class="text-light" color="bg-light"/>
       </div>
       <div className="container-fluid bg-dark text-center text-light">
