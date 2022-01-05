@@ -27,6 +27,10 @@ div.topLeft{
   margin-bottom: 0;
 }
 
+#header,#menu{
+  z-index: 1;
+}
+
 .stack{
   z-index: 9;
   margin: 20px;
