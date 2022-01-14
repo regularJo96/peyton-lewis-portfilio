@@ -24,7 +24,7 @@ function Menu(props){
           <li><Link to="/plportfolio/The-Sound-of-Music" className="dropdown-item">The Sound of Music</Link></li>
           <li><Link to="/plportfolio/Anatomy-of-Gray" className="dropdown-item">Anatomy of Gray</Link></li>
           <li><Link to="/plportfolio/Don't-Be-Afraid-of-the-Dark" className="dropdown-item disabled">Don't Be Afraid of the Dark</Link></li>
-          <li><Link to="/plportfolio/About" className="dropdown-item">About Me</Link></li>
+          <li><Link to="/plportfolio/About" className="dropdown-item">Résumé</Link></li>
         </ul>
       </div>
 

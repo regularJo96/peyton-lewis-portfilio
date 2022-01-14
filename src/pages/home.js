@@ -1,6 +1,7 @@
 import Welcome from './welcome';
 import Work from './work';
 import Menu from '../components/menu';
+import Copyright from '../components/copyright'
 import Icon from '../components/icon';
 import {Link} from "react-router-dom";
 
@@ -9,6 +10,7 @@ function Home(value){
   return (
     <div id="home" className="d-flex flex-column">
         <div id="header" className="sticky-top bg-light">
+        
           <Menu class="text-dark" color="bg-light"/>
           <p id="welcome" className="display-1 text-center bg-light text-black">Peyton Lewis</p>
         </div>
@@ -54,6 +56,8 @@ function Home(value){
       <div id="Don't-Be-Afraid-of-the-Dark" className="position-relative container-fluid bg-red text-center justify-content-center text-light">
         <Work title="Don't Be Afraid of the Dark" time="2021" role="Sylvia Frye" route="/Don't-Be-Afraid-of-the-Dark"/>
       </div>
+
+      <Copyright/>
     </div>
   )
 }

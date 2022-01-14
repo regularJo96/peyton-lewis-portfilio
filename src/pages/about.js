@@ -6,7 +6,7 @@ function About(){
     <>
       
       <div className="block d-flex flex-column text-light">
-        <Link to="/plportfolio" className="sticky-top"><Back class="black"/></Link>
+        <Link to="/plportfolio" className="sticky-top"><Back class="text-black"/></Link>
         <div className="container">
           
           <header className="h1 text-center text-black fw-bold mb-4">Peyton Lynn Lewis</header>
@@ -16,7 +16,7 @@ function About(){
 
           <div className="d-flex flex-row">
             <p className="container-fluid text-dark text-start">(901)258-8424</p>
-            <p className="container-fluid text-dark text-end">5'7"/158</p>
+            <p className="container-fluid text-dark text-end">5'7"/158lb</p>
           </div>
 
           <div className="d-flex flex-row">
