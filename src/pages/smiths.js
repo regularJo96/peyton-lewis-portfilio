@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import '../assets/custom.scss';
 import '../assets/App.scss';
 import pictures from '../components/images.js';
-import Picture from '../components/picture.js';
+import Copyright from '../components/copyright';
 import Back from '../components/back';
 import ScrollToTop from "../scripts/toTop";
 
@@ -20,6 +20,7 @@ function Smiths(){
           <img className="img-fluid pic2 border border-white border-2" src={pictures[3]}/>
           <img className="img-fluid pic3 border border-white border-2" src={pictures[4]}/>
         </div>
+        <Copyright background_color="bg-black" text_color="text-white"/>
       </div>
     </>
   )

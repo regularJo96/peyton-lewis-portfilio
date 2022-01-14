@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import '../assets/custom.scss';
 import '../assets/App.scss';
 import pictures from '../components/images.js';
-import Picture from '../components/picture.js';
+import Copyright from '../components/copyright'
 import Back from '../components/back';
 import ScrollToTop from "../scripts/toTop";
 
@@ -19,6 +19,8 @@ function CharlieBrown(props){
           <img className="img-fluid border border-dark border-2 m-auto" src={pictures[1]}/>
           <img className="img-fluid border border-dark border-2" src={pictures[0]}/>
         </div>
+
+        <Copyright background_color="bg-snoopy" text_color="text-black"/>
       </div>
     </>
 

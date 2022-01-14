@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import '../assets/custom.scss';
 import '../assets/App.scss';
 import pictures from '../components/images.js';
-import Picture from '../components/picture.js';
+import Copyright from '../components/copyright';
 import Back from '../components/back';
 import ScrollToTop from "../scripts/toTop";
 
@@ -22,7 +22,7 @@ function Anatomy(props){
           <img className="img-fluid a-pic-3 border border-light border-2" src={pictures[17]}/>
           <img className="img-fluid a-pic-4 border border-light border-2" src={pictures[18]}/>
         </div>
-
+        <Copyright background_color="bg-dark" text_color="text-light"/>
       </div>
     </>
   )

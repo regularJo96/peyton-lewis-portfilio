@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import '../assets/custom.scss';
 import '../assets/App.scss';
 import pictures from '../components/images.js';
-import Picture from '../components/picture.js';
+import Copyright from '../components/copyright';
 import Back from '../components/back';
 import ScrollToTop from "../scripts/toTop";
 
@@ -18,6 +18,7 @@ function Music(){
           <img className="img-fluid m-pic-1 border border-light border-2 m-auto" src={pictures[13]}/>
           <img className="img-fluid border m-pic-2 border-light border-2 m-auto" src={pictures[14]}/>
         </div>
+        <Copyright background_color="bg-green" text_color="text-light"/>
       </div>
     </>
   )

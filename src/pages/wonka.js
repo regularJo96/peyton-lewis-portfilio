@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import '../assets/custom.scss';
 import '../assets/App.scss';
 import pictures from '../components/images.js';
-import Picture from '../components/picture.js';
+import Copyright from '../components/copyright';
 import Back from '../components/back';
 import ScrollToTop from "../scripts/toTop";
 
@@ -21,6 +21,7 @@ function Wonka(){
           <img className="img-fluid pic2 border border-wonka border-2" src={pictures[6]}/>
           <img className="img-fluid pic3 border border-wonka border-2" src={pictures[7]}/>
         </div>
+        <Copyright background_color="bg-purple" text_color="text-wonka"/>
       </div>
     </>
   )

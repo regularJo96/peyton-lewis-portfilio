@@ -1,8 +1,6 @@
-import Welcome from './welcome';
 import Work from './work';
 import Menu from '../components/menu';
 import Copyright from '../components/copyright'
-import Icon from '../components/icon';
 import {Link} from "react-router-dom";
 
 function Home(value){
@@ -57,7 +55,7 @@ function Home(value){
         <Work title="Don't Be Afraid of the Dark" time="2021" role="Sylvia Frye" route="/Don't-Be-Afraid-of-the-Dark"/>
       </div>
 
-      <Copyright/>
+      <Copyright background_color="bg-red" text_color="text-light"/>
     </div>
   )
 }

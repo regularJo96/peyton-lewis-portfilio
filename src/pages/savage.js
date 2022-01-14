@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import '../assets/custom.scss';
 import '../assets/App.scss';
 import pictures from '../components/images.js';
-import Picture from '../components/picture.js';
+import Copyright from '../components/copyright';
 import Back from '../components/back';
 import ScrollToTop from "../scripts/toTop";
 
@@ -22,6 +22,7 @@ function Savage(){
           <img className="img-fluid s-pic-4 border border-ethelC border-2" src={pictures[8]}/>
           <img className="img-fluid s-pic-5 border border-ethelC border-2" src={pictures[12]}/>
         </div>
+        <Copyright background_color="bg-ethel" text_color="text-ethelC"/>
       </div>
     </>
   )
