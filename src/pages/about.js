@@ -32,7 +32,7 @@ function About(){
           </div>
 
           <div className="d-flex flex-row">
-            <p className="container-fluid text-dark text-start">Libscomb University</p>
+            <p className="container-fluid text-dark text-start">Lipscomb University</p>
             <p className="container-fluid text-dark text-end">Class of 2025</p>
           </div>
 
@@ -47,7 +47,7 @@ function About(){
           <div className="d-flex flex-row">
             <p className="container-fluid text-dark text-start fst-italic">Honk!</p>
             <p className="container-fluid text-dark text-center fst-italic">Ensemble</p>
-            <p className="container-fluid text-dark text-end">2016?</p>
+            <p className="container-fluid text-dark text-end">2015-2016</p>
             
           </div>
 

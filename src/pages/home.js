@@ -17,7 +17,7 @@ function Home(value){
 
         <div className="container-fluid justify-content-center">
           <p id="welcome" className="display-3 text-center bg-light text-dark">Theater Education</p>
-          <p id="welcome" className="display-3 text-center bg-light text-dark">Libcomb University</p>
+          <p id="welcome" className="display-3 text-center bg-light text-dark">Lipscomb University</p>
         </div>
       </div>
 

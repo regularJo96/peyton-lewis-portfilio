@@ -6,15 +6,15 @@ function Work(props){
   
   const workActor = (
     <>
-      <p className="h1">{props.role} in</p>
-      <p className="display-1">{props.title}</p>
+      <p className="h1 mt-3">{props.role} in</p>
+      <p className="display-1 mt-2 mb-2">{props.title}</p>
       <p className="display-6">{props.time}</p>
     </>
   )
 
   const workDirector = (
     <>
-      <p className="h1">{props.role}</p>
+      <p className="h1 mt-3">{props.role}</p>
       <p className="display-1">{props.title}</p>
       <p className="display-6">{props.time}</p>
     </>
