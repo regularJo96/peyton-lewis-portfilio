@@ -28,12 +28,12 @@ function About(){
 
           <div className="d-flex flex-row">
             <p className="container-fluid text-dark text-start">First Assembly Christain School (Memphis, TN)</p>
-            <p className="container-fluid text-dark text-end">Class of 2021?</p>
+            <p className="container-fluid text-dark text-end">Class of 2021</p>
           </div>
 
           <div className="d-flex flex-row">
-            <p className="container-fluid text-dark text-start">University of [insert]</p>
-            <p className="container-fluid text-dark text-end">Class of 2025?</p>
+            <p className="container-fluid text-dark text-start">Libscomb University</p>
+            <p className="container-fluid text-dark text-end">Class of 2025</p>
           </div>
 
           <header className="border-top border-dark"></header>

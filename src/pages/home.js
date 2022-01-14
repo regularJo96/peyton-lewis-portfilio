@@ -8,15 +8,16 @@ function Home(value){
 
   return (
     <div id="home" className="d-flex flex-column">
-        <div id="header" className="sticky-top bg-dark">
-          <Menu class="text-light" color="bg-light"/>
-          <p id="welcome" className="display-1 text-center bg-dark text-light">HI, I'm Peyton</p>
+        <div id="header" className="sticky-top bg-light">
+          <Menu class="text-dark" color="bg-light"/>
+          <p id="welcome" className="display-1 text-center bg-light text-black">Peyton Lewis</p>
         </div>
         
-      <div className="container-fluid bg-dark text-center text-light">
+      <div className="container-fluid bg-light text-center">
 
         <div className="container-fluid justify-content-center">
-          <p className="display-3">Theater Major at [insert college]</p>
+          <p id="welcome" className="display-3 text-center bg-light text-dark">Theater Education</p>
+          <p id="welcome" className="display-3 text-center bg-light text-dark">Libcomb University</p>
         </div>
       </div>
 
