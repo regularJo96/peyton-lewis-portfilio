@@ -14,8 +14,8 @@ function Menu(props){
 
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
           
-          <li><Link to="/plportfolio" className="dropdown-item">version 1</Link></li>
-          <li><Link to="/plportfolio/version2" className="dropdown-item">version 2</Link></li>
+          {/* <li><Link to="/plportfolio" className="dropdown-item">version 1</Link></li> */}
+          {/* <li><Link to="/plportfolio/version2" className="dropdown-item">version 2</Link></li> */}
           {/* <li><Link to="/plportfolio/version3" className="dropdown-item">version 3</Link></li> */}
           <li><Link to="/You're-a-Good-Man-Charlie-Brown" className="dropdown-item">You're a Good Man Charlie Brown</Link></li>
           <li><Link to="/Some-of-My-Best-Friends-are-Smiths" className="dropdown-item">Some of My Best Friends are Smiths</Link></li>
