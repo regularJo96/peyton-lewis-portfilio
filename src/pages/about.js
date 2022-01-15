@@ -5,7 +5,7 @@ function About(){
   const about = (
     <>
       
-      <div className="block d-flex flex-column text-light">
+      <div className="d-flex flex-column text-light">
         <Link to="/plportfolio" className="sticky-top"><Back class="text-black"/></Link>
         <div className="container">
           

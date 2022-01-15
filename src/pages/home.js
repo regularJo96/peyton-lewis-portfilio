@@ -7,9 +7,8 @@ function Home(value){
 
   return (
     <div id="home" className="d-flex flex-column">
-        <div id="header" className="sticky-top bg-light">
-        
-          <Menu class="text-dark" color="bg-light"/>
+        <div id="header" className="sticky-top bg-light display-6">
+          <Menu class="text-dark" color="bg-dark"/>
           <p id="welcome" className="display-1 text-center bg-light text-black">Peyton Lewis</p>
         </div>
         

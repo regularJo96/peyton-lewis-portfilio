@@ -49,16 +49,21 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
       -->
-        <script>
-          window.addEventListener("scroll", function(){
-            if(window.scrollTop()==0){
-              document.getElementById("welcome").className="display-1 sticky-top text-center bg-dark text-light";
+      <script>
+        window.onscroll = function () {
+            scrollFunction();
+        };
+  
+        function scrollFunction() {
+            var name = document.getElementById("welcome");
+            if (document.documentElement.scrollTop > 150){
+                name.className = "display-6 text-center bg-light text-black"
             }
-            else{
-              document.getElementById("welcome").className="display-6 sticky-top text-center bg-dark text-light";
+
+            else if(document.documentElement.scrollTop ==0){
+                name.className = "display-1 text-center bg-light text-black"
             }
-            
-          });
-        </script>
+        }
+    </script>
       </body>
 </html>
