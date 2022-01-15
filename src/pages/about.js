@@ -41,7 +41,7 @@ function About(){
           <div className="d-flex flex-row"> 
             <div className="h6 container-fluid text-dark p-2 text-start">Production</div>
             <div className="h6 container-fluid text-dark p-2 text-center">Part</div>
-            <p className="h6 container-fluid text-dark text-end">Year</p>
+            <p className="h6 container-fluid text-dark p-2 text-end">Year</p>
           </div>
 
           <div className="d-flex flex-row">
