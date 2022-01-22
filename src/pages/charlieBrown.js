@@ -15,7 +15,7 @@ function CharlieBrown(props){
         <p className="display-5 text-dark text-center mb-5">2017-2018</p>
         <p className="display-5 text-dark text-center mt-3">Snoopy</p>
         <div className="charlie-brown-gallery">
-          <img className="img-fluid border border-dark border-2 h-100" src={pictures[1]}/>
+          <img className="img-fluid border border-dark border-2 full" src={pictures[1]}/>
           <img className="img-fluid border border-dark border-2" src={pictures[0]}/>
         </div>
 

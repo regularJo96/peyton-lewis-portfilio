@@ -73,6 +73,10 @@ menu:hover{
   font-family: "African";
 }
 
+.full{
+    height: 100%;
+}
+
 .charlie-brown-gallery{
   display: grid;
   grid-template-columns: 30% 70%;
@@ -180,6 +184,9 @@ menu:hover{
 }
 
 @media only screen and (max-width: 900px) {
+  .full{
+      height: auto;
+  }
   .charlie-brown-gallery{
     display: grid;
     grid-template-columns: 100%;
@@ -213,6 +220,9 @@ menu:hover{
 
 // for small screen
 @media only screen and (max-width: 1200px) {
+  .full{
+      height: auto;
+  }
   .smiths-gallery, .wonka-gallery, .savage-gallery, .music-gallery, .anatomy-gallery, .dark-gallery{
     display: grid;
     grid-template-columns: 100%;

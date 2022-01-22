@@ -16,10 +16,10 @@ function Dark(){
         <p className="display-5 text-light text-center mt-3">Sylvia Frye</p>
 
         <div className="dark-gallery">
-          <img className="img-fluid d-pic-1 border border-light border-2 m-auto h-100" src={pictures[21]}/>
-          <img className="img-fluid d-pic-2 border border-light border-2 m-auto h-100" src={pictures[20]}/>
-          <img className="img-fluid d-pic-3 border border-light border-2 m-auto h-100" src={pictures[23]}/>
-          <img className="img-fluid d-pic-4 border border-light border-2 m-auto h-100" src={pictures[19]}/>
+          <img className="img-fluid d-pic-1 border border-light border-2 m-auto full" src={pictures[21]}/>
+          <img className="img-fluid d-pic-2 border border-light border-2 m-auto full" src={pictures[20]}/>
+          <img className="img-fluid d-pic-3 border border-light border-2 m-auto full" src={pictures[23]}/>
+          <img className="img-fluid d-pic-4 border border-light border-2 m-auto full" src={pictures[19]}/>
           <img className="img-fluid d-pic-5 border border-light border-2 m-auto" src={pictures[22]}/>
           <img className="img-fluid d-pic-6 border border-light border-2 m-auto" src={pictures[24]}/>
         </div>

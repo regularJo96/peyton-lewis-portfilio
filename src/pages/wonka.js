@@ -19,7 +19,7 @@ function Wonka(){
         <div className="wonka-gallery">
           <img className="img-fluid pic1 border border-wonka border-2" src={pictures[5]}/>
           <img className="img-fluid pic2 border border-wonka border-2" src={pictures[6]}/>
-          <img className="img-fluid pic3 border border-wonka border-2 h-100" src={pictures[7]}/>
+          <img className="img-fluid pic3 border border-wonka border-2 full" src={pictures[7]}/>
         </div>
         <Copyright background_color="bg-purple" text_color="text-wonka"/>
       </div>

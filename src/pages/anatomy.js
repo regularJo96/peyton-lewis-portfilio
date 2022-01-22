@@ -17,8 +17,8 @@ function Anatomy(props){
         <p className="display-5 text-light text-center mt-3">Director</p>      
         
         <div className="anatomy-gallery">
-          <img className="img-fluid a-pic-1 border border-light border-2 h-100 mx-auto" src={pictures[15]}/>
-          <img className="img-fluid a-pic-2 border border-light border-2 h-100 mx-auto" src={pictures[16]}/>
+          <img className="img-fluid a-pic-1 border border-light border-2 full mx-auto" src={pictures[15]}/>
+          <img className="img-fluid a-pic-2 border border-light border-2 full mx-auto" src={pictures[16]}/>
           <img className="img-fluid a-pic-3 border border-light border-2 mx-auto" src={pictures[17]}/>
           <img className="img-fluid a-pic-4 border border-light border-2 mx-auto" src={pictures[18]}/>
         </div>
