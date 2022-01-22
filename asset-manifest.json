@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/plportfolio/static/css/main.9d9096da.css",
-    "main.js": "/plportfolio/static/js/main.76c3a9df.js",
+    "main.css": "/plportfolio/static/css/main.008e64d4.css",
+    "main.js": "/plportfolio/static/js/main.481efda7.js",
     "static/js/787.1fb29056.chunk.js": "/plportfolio/static/js/787.1fb29056.chunk.js",
+    "static/media/dark-1.jpg": "/plportfolio/static/media/dark-1.b284c90fd0d746bac01f.jpg",
     "static/media/sound-of-music-2.jpg": "/plportfolio/static/media/sound-of-music-2.23b53d5d448be6712616.jpg",
     "static/media/sound-of-music-1.jpg": "/plportfolio/static/media/sound-of-music-1.cd75a75116e3eda5d553.jpg",
     "static/media/savage-1.jpg": "/plportfolio/static/media/savage-1.7bd46ed4db1c7b37127a.jpg",
@@ -13,10 +14,15 @@
     "static/media/savage-3.jpg": "/plportfolio/static/media/savage-3.e6984f5a3da1ff13258f.jpg",
     "static/media/smiths-1.jpg": "/plportfolio/static/media/smiths-1.392b5d28c422e809897f.jpg",
     "static/media/wonka-1.jpg": "/plportfolio/static/media/wonka-1.8b44009f0412324007c1.jpg",
+    "static/media/dark-4.jpg": "/plportfolio/static/media/dark-4.48ad89ac824cb8ab3b39.jpg",
+    "static/media/dark-6.jpg": "/plportfolio/static/media/dark-6.2c73ee6b987f05a8d81a.jpg",
     "static/media/peanuts.otf": "/plportfolio/static/media/peanuts.b239b156432c559dcadb.otf",
+    "static/media/dark-3.jpg": "/plportfolio/static/media/dark-3.d8859ceeb22a4ff4cab9.jpg",
     "static/media/smiths-2.jpg": "/plportfolio/static/media/smiths-2.fba0faed11c5c7a3405f.jpg",
     "static/media/savage-5.jpg": "/plportfolio/static/media/savage-5.b81af571d19da4aa9d23.jpg",
+    "static/media/dark-5.jpg": "/plportfolio/static/media/dark-5.692bf7469454692a7c41.jpg",
     "static/media/smiths-3.jpg": "/plportfolio/static/media/smiths-3.5b9df790faf116cd3401.jpg",
+    "static/media/dark-2.jpg": "/plportfolio/static/media/dark-2.b842327d0914f8465c08.jpg",
     "static/media/savage-4.jpg": "/plportfolio/static/media/savage-4.25f21f81ac2973939e62.jpg",
     "static/media/charlie-brown-1.jpg": "/plportfolio/static/media/charlie-brown-1.a75e6aff38ec35dec84a.jpg",
     "static/media/charlie-brown-2.jpg": "/plportfolio/static/media/charlie-brown-2.7b93b1c91996b2138c17.jpg",
@@ -26,12 +32,12 @@
     "static/media/anatomy-1.jpg": "/plportfolio/static/media/anatomy-1.a5971ecc976539466759.jpg",
     "static/media/WillyWonka.ttf": "/plportfolio/static/media/WillyWonka.aba397a47d5c2349d30a.ttf",
     "index.html": "/plportfolio/index.html",
-    "main.9d9096da.css.map": "/plportfolio/static/css/main.9d9096da.css.map",
-    "main.76c3a9df.js.map": "/plportfolio/static/js/main.76c3a9df.js.map",
+    "main.008e64d4.css.map": "/plportfolio/static/css/main.008e64d4.css.map",
+    "main.481efda7.js.map": "/plportfolio/static/js/main.481efda7.js.map",
     "787.1fb29056.chunk.js.map": "/plportfolio/static/js/787.1fb29056.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d9096da.css",
-    "static/js/main.76c3a9df.js"
+    "static/css/main.008e64d4.css",
+    "static/js/main.481efda7.js"
   ]
 }
