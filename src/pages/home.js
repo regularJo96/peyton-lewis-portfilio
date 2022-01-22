@@ -2,11 +2,12 @@ import Work from './work';
 import Menu from '../components/menu';
 import Copyright from '../components/copyright'
 import {Link} from "react-router-dom";
+import ScrollToTop from "../scripts/toTop";
 
-function Home(value){
+function Home(props){
 
   return (
-    <div id="home" className="d-flex flex-column">
+    <div id="home" className="d-flex flex-column" onLoad={ScrollToTop}>
         <div id="header" className="sticky-top bg-light display-6">
           <Menu class="text-dark" color="bg-dark"/>
           <p id="welcome" className="display-1 text-center bg-light text-black">Peyton Lewis</p>
@@ -52,6 +53,7 @@ function Home(value){
       
       <div id="Don't-Be-Afraid-of-the-Dark" className="position-relative container-fluid bg-red text-center justify-content-center text-light">
         <Work title="Don't Be Afraid of the Dark" time="2021" role="Sylvia Frye" route="/Don't-Be-Afraid-of-the-Dark"/>
+        <Link to="/plportfolio/Don't-Be-Afraid-of-the-Dark" className="btn btn-light w-25 mx-auto mb-3">Gallery</Link>
       </div>
 
       <Copyright background_color="bg-red" text_color="text-light"/>

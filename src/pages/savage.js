@@ -17,7 +17,7 @@ function Savage(){
 
         <div className="savage-gallery">
           <img className="img-fluid s-pic-1 border border-ethelC border-2" src={pictures[10]}/>
-          <img className="img-fluid s-pic-2 border border-ethelC border-2 m-auto" src={pictures[11]}/>
+          <img className="img-fluid s-pic-2 border border-ethelC border-2 m-auto h-100" src={pictures[11]}/>
           <img className="img-fluid s-pic-3 border border-ethelC border-2" src={pictures[9]}/>
           <img className="img-fluid s-pic-4 border border-ethelC border-2" src={pictures[8]}/>
           <img className="img-fluid s-pic-5 border border-ethelC border-2" src={pictures[12]}/>
