@@ -13,7 +13,7 @@ function Savage(){
         <Link to="/plportfolio" className="sticky-top"><Back class="text-ethelC"/></Link>
         <header className="display-2 text-ethelC text-center" onLoad={ScrollToTop}>Curious Savage</header>
         <p className="display-5 text-ethelC text-center mb-5">2019-2020</p>
-        <p className="display-5 text-ethelC text-center mt-5">Ethel P. Savage</p>
+        <p className="display-5 text-ethelC text-center mt-3">Ethel P. Savage</p>
 
         <div className="savage-gallery">
           <img className="img-fluid s-pic-1 border border-ethelC border-2" src={pictures[10]}/>

@@ -13,7 +13,7 @@ function Smiths(){
         <Link to="/plportfolio" className="sticky-top"><Back class="text-white"/></Link>
         <header className="display-2 text-light text-center" onLoad={ScrollToTop}>Some of My Best Friends are Smiths</header>
         <p className="display-5 text-light text-center mb-5">2017-2018</p>
-        <p className="display-5 text-light text-center mt-5">Shirley Robinson</p>
+        <p className="display-5 text-light text-center mt-3">Shirley Robinson</p>
 
         <div className="smiths-gallery">
           <img className="img-fluid pic1 border border-white border-2" src={pictures[2]}/>

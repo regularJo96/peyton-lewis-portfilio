@@ -14,12 +14,12 @@ function Wonka(){
         <Link to="/plportfolio" className="sticky-top"><Back class="text-wonka"/></Link>
         <header className="display-2 text-light text-center text-wonka" onLoad={ScrollToTop}>Roald Dahl's Willy Wonka</header>
         <p className="display-5 text-wonka text-center mb-5">2018-2019</p>
-        <p className="display-5 text-wonka text-center mt-5">Grandma Josephine</p>
+        <p className="display-5 text-wonka text-center mt-3">Grandma Josephine</p>
         
         <div className="wonka-gallery">
           <img className="img-fluid pic1 border border-wonka border-2" src={pictures[5]}/>
           <img className="img-fluid pic2 border border-wonka border-2" src={pictures[6]}/>
-          <img className="img-fluid pic3 border border-wonka border-2" src={pictures[7]}/>
+          <img className="img-fluid pic3 border border-wonka border-2 h-100" src={pictures[7]}/>
         </div>
         <Copyright background_color="bg-purple" text_color="text-wonka"/>
       </div>

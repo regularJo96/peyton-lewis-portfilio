@@ -131,11 +131,17 @@ menu:hover{
   }
 
   .a-pic-1{
-    grid-area: 1 / 1 / span 2 / span 1;
+    grid-area: 1 / 1 / span 1 / span 1;
   }
   .a-pic-2{
-    grid-area: 1 / 2 / span 2 / span 2;
+    grid-area: 1 / 2 / span 2 / span 1;
   }
+  .a-pic-3{
+    grid-area: 2 / 1 / span 1 / span 1;
+  }
+  .a-pic-4{
+    grid-area: 2 / 2 / span 2/ span 1;
+  } 
 }
 
 @media only screen and (max-width: 900px) {
@@ -146,6 +152,7 @@ menu:hover{
   }
 }
 
+// for small screen
 @media only screen and (max-width: 1200px) {
   .smiths-gallery, .wonka-gallery, .savage-gallery, .music-gallery, .anatomy-gallery{
     display: grid;
